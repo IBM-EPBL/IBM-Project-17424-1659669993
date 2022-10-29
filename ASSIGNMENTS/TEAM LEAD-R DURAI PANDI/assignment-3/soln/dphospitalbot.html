@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<title>DP HealthCare</title>
+<style>
+    body  {
+        background: url(https://img.freepik.com/premium-photo/doctor-with-stethoscope-hand-hospital-background-medical-medicine-concept_34200-278.jpg?w=2000) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover
+  
+}
+</style>
+
+<body>
+  <script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "aecd5fae-a6e2-40d0-9cc4-e3a58aaecd74", // The ID of this integration.
+      region: "au-syd", // The region your integration is hosted in.
+      serviceInstanceID: "5a6e331b-e5d2-416b-8d42-abae0376a69f", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
+  </script>
+</body>
+</html>
